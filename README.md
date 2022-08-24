@@ -1,7 +1,7 @@
 # AWS VPC and Networking in Depth 
 
 ## AWS Networking 
-1. **VPC**
+1. **[VPC](https://github.com/vinayakz/AWS-VPC-and-Networking-/blob/3cce11c55d936d7b11ed5b718552140cf2971dd4/VPC%20and%20Components.md)**
     - CIDR
     - Subnets
     - IGW (Internet Gateway)
