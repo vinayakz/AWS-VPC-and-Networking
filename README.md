@@ -9,7 +9,7 @@
     - IPs - Private, Public, elastic
     - NAT (Network Address Translation)
 
-2. **Firewalls**
+2. **[Firewalls](https://github.com/vinayakz/AWS-VPC-and-Networking-/blob/7de82870465854930d51321685338a71b21f4200/Firewalls.md)**
     - Security Groups
     - NACL (Network access control list)
  
