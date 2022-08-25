@@ -66,3 +66,49 @@
     
     3. 10.10.0.0/24  = 32-24 = 8
                      = 2^8 = 256IPs
+                     
+                     
+                     
+ 2. **Subnets**
+    - A subnets is logical subdivision of IP Network 
+    - The practice of dividing a network into two or more network is called subnets
+    - There are two subnets 
+       - Public Subnets 
+       - Private Subnets
+       
+       
+     1. Public Subnet  
+     
+        - Has route for inaternet
+        - instance with public IP can communucate to internet 
+        - EX:- NAT , web servers, Load balancer
+     
+     2. Private subnet
+     
+        - No route to internet
+        - instance receives private IPs
+        - typically uses NAT for intstance to have internet access
+        - EX:- Database, App server
+     
+ 3. **Route Table**
+    - Contains rules to route the traffic in/out of subnets/VPC
+    - Main route table at VPC level
+    - Custom route table at subnet level
+    - Each route table contains default immutable local route for VPC
+    - If no custom route table is defined then new subnets are associated with main route tbale
+    - We can modify main route table 
+    
+  **Example**
+  
+   | Destination   | Target        |
+   | ------------- | ------------- |
+   | 10.0.0.0/16   | Local         |
+   |  0.0.0.0/0    | igw-id        |
+        
+        
+ 4. **IGW (Internet Gateway)**
+   - IGW which allowes you to communicate VPC to internet
+   
+ 5. **VGW (Virtual Private Gateway)**  
+   - VGW it allows you to coonect VPC to on prenises datacenter
+   - CGW (Customer Gateway)
