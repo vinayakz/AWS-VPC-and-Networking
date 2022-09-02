@@ -13,7 +13,7 @@
     - Security Groups
     - NACL (Network access control list)
  
-3. **Private Connectivity Options**
+3. **[Private Connectivity Options](https://github.com/vinayakz/AWS-VPC-and-Networking/blob/d62c9f23af4dc3e83c07ae445e44a3ca634c64fc/VPC%20Peering.md)**
     - VPC Peering 
     - VPC Endpoint - Gateway 
     - VPC Privatelink
