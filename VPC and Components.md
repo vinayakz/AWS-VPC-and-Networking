@@ -110,5 +110,5 @@
    - IGW which allowes you to communicate VPC to internet
    
  5. **VGW (Virtual Private Gateway)**  
-   - VGW it allows you to coonect VPC to on prenises datacenter
+   - VGW it allows you to connect VPC to on on premise datacenter
    - CGW (Customer Gateway)
