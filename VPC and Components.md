@@ -1,5 +1,6 @@
 # What is VPC ?
   - Virtual Private cloud enables you to launch resources into a virtual network that you have defined. VPC customers can **run code, store data, host websites, and do anything else they could do in an ordinary private cloud,** but the private cloud is hosted remotely by a public cloud provider.
+  - A Private, isolated network within the AWS cloud where you can launch and manage your resources securely.
   
 ## AWS Services Inside VPC and Outside VPC
 
@@ -70,6 +71,7 @@
                      
                      
  2. **Subnets**
+    - A subnet is a smaller, segmented part of a larger network that isolated and organizes devices within a specific ip address range.
     - A subnets is logical subdivision of IP Network 
     - The practice of dividing a network into two or more network is called subnets
     - There are two subnets 
@@ -90,7 +92,8 @@
         - typically uses NAT for intstance to have internet access
         - EX:- Database, App server
      
- 3. **Route Table**
+ 4. **Route Table**
+    - A route table is a set of rules, called routes, that are used to determine where network traffic from your subnets or geteways is        directed.
     - Contains rules to route the traffic in/out of subnets/VPC
     - Main route table at VPC level
     - Custom route table at subnet level
